@@ -9,10 +9,10 @@ int main()
 
     for (int i = 0; i < m; i++)
     {
-        int u, v;
-        cin >> u >> v;
-        adjmat[u][v]=1;
-        adjmat[v][u]=1;
+        int u, v,w;
+        cin >> u >> v>>w;
+        adjmat[u][v]=w;
+        adjmat[v][u]=w;
     }
     for(int i=1;i<=n;i++)
     {
