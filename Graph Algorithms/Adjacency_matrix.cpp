@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int N=1e3+5;
+const int N = 1e3 + 5;
 int adjmat[N][N];
 int main()
 {
@@ -9,18 +9,18 @@ int main()
 
     for (int i = 0; i < m; i++)
     {
-        int u, v,w;
-        cin >> u >> v>>w;
-        adjmat[u][v]=w;
-        adjmat[v][u]=w;
+        int u, v, w;
+        cin >> u >> v >> w;
+        adjmat[u][v] = w;
+        adjmat[v][u] = w;
     }
-    for(int i=1;i<=n;i++)
+    for (int i = 1; i <= n; i++)
     {
-        for(int j=1;j<=n;j++)
+        for (int j = 1; j <= n; j++)
         {
-            cout<< adjmat[i][j]<< " ";
+            cout << adjmat[i][j] << " ";
         }
-        cout<<endl;
+        cout << endl;
     }
     return 0;
 }

@@ -1,4 +1,10 @@
-List 1: (2, 8)(3, 9)
-List 2: (1, 8)(4, 11)(3, 15)
-List 3: (1, 9)(4, 17)(2, 15)
-List 4: (2, 11)(3, 17)
+Visited Node: 1
+Visited Node: 2
+Visited Node: 4
+Visited Node: 7
+Visited Node: 8
+Visited Node: 3
+Visited Node: 5
+Visited Node: 6
+Visited Node: 9
+Visited Node: 10
